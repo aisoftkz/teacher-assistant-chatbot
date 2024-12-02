@@ -1,0 +1,15 @@
+{
+  "name": "teacherbot",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "mongoose": "^7.0.0",
+    "openai": "^3.0.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "1.26.0"
+  }
+}

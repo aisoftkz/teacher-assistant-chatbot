@@ -1,0 +1,8 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+.wwebjs_cache
+.wwebjs_auth
