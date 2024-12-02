@@ -26,7 +26,10 @@ const openai = new OpenAIApi(
 // WhatsApp client configuration
 const client = new Client({
   authStrategy: new LocalAuth({ clientId: 'teacherbot' }),
-  puppeteer: { headless: true },
+  puppeteer: {
+    args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    headless: true,
+  },
 });
 
 // QR Code Display
